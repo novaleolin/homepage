@@ -3,18 +3,16 @@
 I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
 
 #### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+<code>15062791135@163.com</code>  
+<code>ly_16@tju.edu.cn</code>
 
 #### Education  
-**XX University**, Master of XX (XX – XX)  
-• GPA: XX/XX  
+**Tianjin University**, Bachelor of Software Engineering (2022 – 2026)  
 
-**XX University**, Exchange student <br>  
+
+**Zhejiang University**, Master  <br>  
 • As a XX, represented my college as an outstanding student for a XX exchange program.  
 
-**XX University**, Honours Bachelor of XX (XX – XX)  
-• GPA: XX/XX (top XX%)  
 
 #### Research Interests  
-XX, XX, XX, XX.
+Large Language Models, AI Agents, Multimodel Learning.
