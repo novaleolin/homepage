@@ -77,6 +77,49 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+        <script>
+        // 加载配置文件并将其内容应用到网页
+        window.onload = function() {
+            // 假设 config.yml 是你的配置文件路径
+            fetch('config.yml')
+                .then(response => response.text())
+                .then(data => {
+                    const yamlConfig = jsyaml.load(data);
+                    
+                    // 更新网页标题
+                    document.getElementById('title').textContent = yamlConfig.title;
+                    
+                    // 更新导航栏标题
+                    document.getElementById('page-top-title').textContent = yamlConfig['page-top-title'];
+                    
+                    // 更新顶部区域背景文字
+                    document.getElementById('top-section-bg-text').textContent = yamlConfig['top-section-bg-text'];
+                    
+                    // 更新主页副标题
+                    document.getElementById('home-subtitle').textContent = yamlConfig['home-subtitle'];
+                    
+                    // 更新版权文本
+                    document.getElementById('copyright-text').textContent = yamlConfig['copyright-text'];
+                    
+                    // 更新站点名称
+                    document.getElementById('site_name').textContent = yamlConfig['site_name'];
+                    
+                    // 更新站点描述
+                    document.getElementById('site_description').textContent = yamlConfig['site_description'];
+                    
+                    // 更新邮箱
+                    document.getElementById('email').textContent = yamlConfig.email;
+                    
+                    // 更新 GitHub 链接
+                    document.getElementById('github-link').href = yamlConfig.github;
+                    
+                    // 更新许可证链接
+                    document.getElementById('license-link').href = yamlConfig.license;
+                })
+                .catch(error => console.error('Error loading config file:', error));
+        };
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -179,7 +222,7 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/novaleolin">Github</a>
                 <span class="mx-1">&middot;</span>
                 <a id="license-link"
                     href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
