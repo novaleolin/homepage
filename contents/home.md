@@ -1,4 +1,4 @@
-[![Yang Lin](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/novaleolin)
+[![Yang Lin](https://img.shields.io/badge/Yang Lin-github-blue?logo=github)](https://github.com/novaleolin)
 
 I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
 
