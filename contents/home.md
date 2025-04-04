@@ -4,6 +4,7 @@ I'm currently pursuing a Master's degree in XX at the Department of XX, XX Unive
 
 #### Email  
 <code>15062791135@163.com</code>  
+<code>novaleo123456@gmail.com</code>
 <code>ly_16@tju.edu.cn</code>
 
 #### Education  
